@@ -1,0 +1,59 @@
+body {
+  background-color: #aaa;
+  background-image: url(celebrating.png);
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: 'Cardo', serif;
+  color: #981d0c;
+  font-size: 150%;
+
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #981d0c;
+}
+
+.interior {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin: 10%;
+  display: block;
+}
+
+.a1, .a2, .a3, .a4, .a5{
+ filter:brightness(50%);
+ opacity:.5;
+ transform: scale(.9);
+ box-shadow:none;
+
+}
+
+
+.a1:hover, .a2:hover{
+  transform:scale(1);
+  filter:brightness(100%);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+.a1, .a2 {
+  padding:30px;
+  height: 20px;
+  margin:2%;
+  background:white;
+  width:700px;
+  border:5px solid #981d0c;
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  border-radius:3px;
+  transition:.2s all;
+  transform: scale(90%);
+
+}
