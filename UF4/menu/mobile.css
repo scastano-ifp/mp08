@@ -23,7 +23,7 @@ li, ul {
 
 }
 
-.uf1:hover, .uf4:hover, .uf2:hover, .uf3:hover {
+.uf1:hover, .uf4:hover {
   text-decoration: underline;
 
 }
