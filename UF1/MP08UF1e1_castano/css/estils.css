@@ -1,0 +1,36 @@
+body {
+    background-color: #222;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+header {
+  height: 50px;
+  background-color: black;
+
+}
+
+p, h1 {
+  color: white;
+}
+
+
+
+
+
+
+.koya, .ytu, .earth, .helv, .sicko, .ze, .art, .home, .remix, .com, .job {
+  display: inline-block;
+
+}
+
+
+.shock, .sugar, .act, .esp {
+  display: inline-block;
+  width: 175px;
+}
+
+.rojo, .verd {
+  display: inline-block;
+  width: 175px;
+}

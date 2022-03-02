@@ -1,0 +1,107 @@
+body {
+  width: 210mm;
+  height: 297mm;
+}
+
+.vinyeta{
+  position: absolute;
+}
+
+#primera {
+  left: 17mm;
+  top:11mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch1.png);
+
+}
+
+#segona {
+  left: 77mm;
+  top:11mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch2.png);
+
+}
+
+#tercera {
+  left: 137mm;
+  top:11mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch3.png);
+
+}
+
+#quarta {
+  left: 17mm;
+  top:104mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch4.png);
+
+}
+
+#cinquena {
+  left: 77mm;
+  top:104mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch5.png);
+
+}
+
+#sisena {
+  left: 137mm;
+  top:104mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch6.png);
+
+}
+
+#setena {
+  left: 17mm;
+  top:197mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch7.png);
+
+}
+
+#vuitena {
+  left: 77mm;
+  top:197mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch8.png);
+
+}
+
+#novena {
+  left: 137mm;
+  top:197mm;
+  height: 90mm;
+  width: 57mm;
+  background-color: black;
+  background-size: 100% 100%;
+  background-image: url(../img/Watch9.png);
+
+}

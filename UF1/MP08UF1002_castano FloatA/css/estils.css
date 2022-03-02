@@ -1,0 +1,58 @@
+div {
+  background-color: red;
+  height: 10em;
+  width: 10em;
+
+}
+
+
+.flotatE {
+float: left;
+margin: 0 1em 1em 0;
+background-image: url(../img/bicho.jpeg);
+background-size: cover;
+background-position: center;
+
+
+
+}
+
+
+.flotatR {
+  float: right;
+  margin: 0 0 1em 1em;
+  background-image: url(../img/rdt.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  clear: both;
+}
+
+.capitular {
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+  background-image: url(../img/índice.jpg);
+  background-size: 100% 100%;
+  width: 2em;
+  height: 2em;
+}
+
+span {
+  color: red;
+  display: none;
+}
+
+.columna {
+  width: 50%;
+  background-color: orange;
+}
+
+.Esquerra {
+  float: left;
+}
+
+.Dreta {
+  float: right;
+}

@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  font-family: helvetica;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+p {
+  color: black;
+  font-weight: lighter;
+}
+
+h2 {
+  color: black;
+
+}
+
+img {
+
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+
+}
+
+.titulo {
+  background-color: red;
+  margin: 150px;
+
+}
+
+
+.gettrtit, .twittertit {
+  font-size: 75px;
+  color: #fff9a9;
+  position: relative;
+  color: black;
+
+}
+
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+
+.plataformes {
+  text-align: left;
+  margin-left: -15px;
+  padding: 15px;
+
+}
+
+.plataformesdos {
+    text-align: left;
+    margin-left: -15px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+.gettr {
+  position: absolute;
+  background-color: #fff9a9;
+  margin: 250px 0px 0px 250px;
+  padding: 40px;
+  overflow: visible;
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 55px 0px #fff9a9;
+
+
+}
+
+.twitter {
+  position: absolute;
+  background-color: #fff9a9;
+  margin: 250px 0px 50px 1240px;
+  padding: 40px;
+  overflow: visible;
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 55px 0px #fff9a9;
+
+}
+
+#captura2 {
+  width: 53%;
+  height: 53%
+}
+
+#captura {
+  width: 50%;
+  height: 50%
+}
+
+a {
+  color: black;
+
+}

@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: Helvetica Neue;
+
+
+}
+
+
+.header {
+  height: 60px;
+  background-color: #FFF;
+}
+
+li:link {
+  color: red;
+
+}
+
+li:hover {
+  background-color: blue;
+}
+
+li:active {
+  color: yellow;
+}
+
+li:visited {
+  color: black;
+}
+
+p {
+  color: #666;
+  line-height: 22px;
+  font-size: 18px;
+  width: 390px;
+  padding: 0 30px 0 30px;
+  margin: 0;
+  text-indent: 18px;
+}
+
+h1 {
+  margin: 0;
+  width: 390px;
+  padding: 30px;
+
+}
+
+.d1 {
+  height: 550px;
+  background-color: #6C3;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+li {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  display: inline-block;
+  height: 30px;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 0;
+  display: inline-block;
+  width: 800px;
+  margin: 0;
+  vertical-align: top;
+  text-align: right;
+  height: 30px;
+
+}
+
+
+
+
+
+}
+
+.d2 {
+  height: 641px;
+  background-color: #FFF;
+  background-image: url(../img/allinone.jpg);
+
+
+
+  }
+
+.d3 {
+  height: 500px;
+  background-color: #333333;
+  background-image: url(../img/curator-short.png);
+
+  color: #CCC;
+}
+
+.txtblanco {
+  color: #CCC;
+}
+
+.d4 {
+  height: 550px;
+  background-color: #EEECEE;
+  background-image: url(../img/img-hero-full-list.png);
+
+
+}
+
+.d5 {
+  height: 550px;
+  background-color: #6C3;
+  background-image: url(../img/mobile-share.png);
+
+
+}
+
+.d6 {
+  height: 643px;
+  background-color: #EEECEE;
+  background-image: url(../img/anywhere.png);
+}
+
+footer {
+  background-color: #333333;
+  height: 200px;
+  text-align: center;
+}
+
+.titulo {
+  color: #666;
+}
+
+.img {
+  padding: 30px;
+}
+
+div {
+  background-repeat: no-repeat;
+  background-position: 400px 0px;
+}
+
+
+.torna {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(252, 198, 35);
+  position: fixed;
+  top: 500px;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50px;
+  font-size: 60px;
+  text-align: center;
+  line-height: 110px;
+  box-shadow: rgb(62, 255, 4) 5px 5px 30px;
+}

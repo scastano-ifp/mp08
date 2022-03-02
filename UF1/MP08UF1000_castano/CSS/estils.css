@@ -1,0 +1,52 @@
+table {
+  background-color: antiquewhite;
+  border: dotted 5px;
+  width: 600px;
+  border-radius: 25px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px;
+}
+
+th {
+  background-color:
+  gray;
+  border-radius: 60px;
+  color: salmon;
+}
+
+td  {
+  background-color:
+  salmon;
+  font-family: Helvetica;
+  color: black;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.h {
+  background-color: gray;
+  font-style: oblique;
+  font-family: helvetica;
+
+}
+
+.pati {
+  background-color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.h:hover {
+  background-color: red;
+  font-weight: 800;
+}
+
+.hora:hover {
+  background-color: springreen;
+  border-radius: 25px;
+}
+
+.m7, .m8 {
+  background-color: gray;
+
+}
