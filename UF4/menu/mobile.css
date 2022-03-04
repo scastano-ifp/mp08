@@ -1,0 +1,96 @@
+@media screen and (min-width:960px) {
+
+
+body {
+  background-color: #aaa;
+  font-family: 'Saira Condensed', sans-serif;
+  background-image: url(fondo.png);
+  height: 100%;
+  width: 100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+
+
+}
+
+nav {
+  text-align: center;
+}
+
+
+li, ul {
+    list-style: none;
+    font-size: 100px;
+
+}
+
+.uf1:hover, .uf4:hover {
+  text-decoration: underline;
+
+}
+
+h1{
+  font-size: 1250%;
+  font-family: 'Saira Condensed', sans-serif;
+  color: white;
+  opacity: .7;
+  margin-top: -25px;
+}
+
+h2 {
+  font-size: 700%;
+  font-family: 'Saira Condensed', sans-serif;
+  color: #981d0c;
+  opacity: .5;
+  margin-top: -275px;
+}
+
+h3 {
+  font-family: 'Cardo', serif;
+  color: #981d0c;
+  position: relative;
+  top: -120px;
+  font-size: 175%;
+}
+
+.activitats {
+  display:flex;
+  margin-top: -175px;
+  justify-content: center;
+
+}
+
+ .uf1, .uf2, .uf3, .uf4{
+  filter:brightness(50%);
+  opacity:.5;
+  transform: scale(.9);
+  box-shadow:none;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: #981d0c;
+}
+
+
+.uf1:hover, .uf2:hover, .uf3:hover, .uf4:hover{
+  transform:scale(1);
+  filter:brightness(100%);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+.uf1, .uf2, .uf3, .uf4 {
+  padding:30px;
+  height: 200px;
+  margin:2%;
+  background:white;
+  width:200px;
+  border:3px solid #981d0c;
+  border-radius:1px;
+  transition:.2s all;
+  transform: scale(80%);
+
+}
