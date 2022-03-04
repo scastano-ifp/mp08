@@ -4,18 +4,19 @@
 body {
   background-color: #aaa;
   font-family: 'Saira Condensed', sans-serif;
-  width: 100%;
+  background-image: url(fondo.png);
   height: 100%;
-  background-image: url(ship.png);
+  width: 100%;
+  background-size:100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 40%;
+
 
 }
 
 nav {
   text-align: center;
 }
+
 
 li, ul {
     list-style: none;
@@ -29,23 +30,33 @@ li, ul {
 }
 
 h1{
-  font-size: 1000%;
+  font-size: 1250%;
+  font-family: 'Saira Condensed', sans-serif;
+  color: white;
+  opacity: .7;
+  margin-top: -25px;
+}
+
+h2 {
+  font-size: 700%;
   font-family: 'Saira Condensed', sans-serif;
   color: #981d0c;
   opacity: .5;
+  margin-top: -275px;
 }
 
 h3 {
   font-family: 'Cardo', serif;
   color: #981d0c;
   position: relative;
+  top: -120px;
+  font-size: 175%;
 }
 
 .activitats {
   display:flex;
-  align-items:center;
-  justify-content:center;
-  margin-top: -550px;
+  margin-top: -175px;
+  justify-content: center;
 
 }
 
@@ -81,7 +92,5 @@ a {
   border-radius:1px;
   transition:.2s all;
   transform: scale(80%);
-
-}
 
 }
