@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+background: linear-gradient(35deg, ivory 50%, pink 50%);
+
+}
+
+#logo1{
+    margin-top: 40px;
+}
+
+.cabeza{
+  height: 589px;
+}
+
+.cabeza h1{
+  font-family: Helvetica, Arial, Sans-serif, Bold;
+  font-size: 4em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.cabeza img{
+  margin-top: -150px;
+}
+
+.cuerpo p{
+  text-align: left;
+  margin: 10px;
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+.cuerpo li{
+  width: auto;
+  height: 40px;
+  background: white;
+  display: inline-block;
+}
+
+
+.cuerpo2{
+  margin-top: 20px;
+}
+
+
+.cuerpo3{
+  margin-top: 20px;
+}
+
+.cuerpo img{
+  filter: saturate(100%);
+  filter: hue-rotate(50deg);
+}
+
+.cuerpo img:hover{
+  transition: 0.3s;
+  transform: rotate(360deg) scale(1.02);
+
+  -webkit-filter: hue-rotate(200deg);
+  -webkit-filter: saturate(50%);
+}
